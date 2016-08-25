@@ -1,0 +1,17 @@
+include setup.py
+
+# C sources
+include src/libkrash/internal.c
+include src/libkrash/sha3.c
+include src/libkrash/util.c
+include src/python/core.c
+
+# Headers
+include src/libkrash/compiler.h
+include src/libkrash/data_sizes.h
+include src/libkrash/endian.h
+include src/libkrash/krash.h
+include src/libkrash/fnv.h
+include src/libkrash/internal.h
+include src/libkrash/sha3.h
+include src/libkrash/util.h
